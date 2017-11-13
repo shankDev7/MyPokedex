@@ -14,6 +14,7 @@
 		B2271DB11FB9C1DA00933D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2271DAF1FB9C1DA00933D8B /* LaunchScreen.storyboard */; };
 		B2271DBC1FB9C1DA00933D8B /* MyPokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2271DBB1FB9C1DA00933D8B /* MyPokedexTests.swift */; };
 		B2271DC71FB9C1DA00933D8B /* MyPokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2271DC61FB9C1DA00933D8B /* MyPokedexUITests.swift */; };
+		B2271DD51FB9C63600933D8B /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = B2271DD41FB9C63600933D8B /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B2271DC21FB9C1DA00933D8B /* MyPokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2271DC61FB9C1DA00933D8B /* MyPokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokedexUITests.swift; sourceTree = "<group>"; };
 		B2271DC81FB9C1DA00933D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2271DD41FB9C63600933D8B /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B2271DAD1FB9C1DA00933D8B /* Assets.xcassets */,
 				B2271DAF1FB9C1DA00933D8B /* LaunchScreen.storyboard */,
 				B2271DB21FB9C1DA00933D8B /* Info.plist */,
+				B2271DD41FB9C63600933D8B /* pokemon.csv */,
 			);
 			path = MyPokedex;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				B2271DB11FB9C1DA00933D8B /* LaunchScreen.storyboard in Resources */,
 				B2271DAE1FB9C1DA00933D8B /* Assets.xcassets in Resources */,
+				B2271DD51FB9C63600933D8B /* pokemon.csv in Resources */,
 				B2271DAC1FB9C1DA00933D8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
