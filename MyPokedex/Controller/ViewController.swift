@@ -127,7 +127,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             poke = pokemons[indexPath.item]
         }
         
-        prepare(for: "PokemonDetailVC", sender: poke)
+        performSegue(withIdentifier: "PokemonDetailVC", sender: poke)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -172,6 +172,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             collectionView.reloadData()
         }
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "PokemonDetailVC" {
+            if let detailsVC = segue.destination as? PokemonDetailVC {
+                if let poke = sender as? Pokemon {
+                    detailsVC.pokemon = poke
+                }
+            }
+        }
     }
     
     
